@@ -1,0 +1,88 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1703509662
+export_presets.cfg::TextFile::-1::1695290832::0::1::::<><>::
+icon.svg::CompressedTexture2D::4772795741932399920::1695290832::1702915830::1::::<><>::
+::res://addons/::1703429119
+::res://addons/Todo_Manager/::1703509662
+ColourPicker.gd::GDScript::-1::1695290832::0::1::::<>HBoxContainer<>::
+Current.gd::GDScript::-1::1695290832::0::1::::<>Panel<>::
+Dock.gd::GDScript::-1::1695290832::0::1::::<>Control<>::
+Pattern.gd::GDScript::-1::1695290832::0::1::::<>HBoxContainer<>::
+plugin.cfg::TextFile::-1::1695290832::0::1::::<><>::
+plugin.gd::GDScript::-1::1695290832::0::1::::<>EditorPlugin<>::
+Project.gd::GDScript::-1::1695290832::0::1::::<>Panel<>::
+todo.cfg::TextFile::-1::1703509662::0::1::::<><>::
+todoItem_class.gd::GDScript::-1::1695290832::0::1::::<>RefCounted<>::
+todo_class.gd::GDScript::-1::1695290832::0::1::::<>RefCounted<>::
+::res://addons/Todo_Manager/doc/::1703429119
+example.gd::GDScript::-1::1695290832::0::1::::<>Node<>::
+::res://addons/Todo_Manager/doc/images/::1703429120
+example1.png::CompressedTexture2D::8063086250666186557::1695290832::1702915831::1::::<><>::
+example2.png::CompressedTexture2D::9160720525942330600::1695290832::1702915831::1::::<><>::
+Instruct1.png::CompressedTexture2D::2184189752750532512::1695290832::1702915831::1::::<><>::
+Instruct2.png::CompressedTexture2D::3750979522331213590::1695290832::1702915831::1::::<><>::
+Instruct3.png::CompressedTexture2D::8885839649946845765::1695290832::1702915831::1::::<><>::
+Instruct4.png::CompressedTexture2D::4495971629460568008::1695290832::1702915831::1::::<><>::
+Instruct5.png::CompressedTexture2D::2573932050645533592::1695290832::1702915831::1::::<><>::
+TODO_Manager_Logo.png::CompressedTexture2D::643324888055088151::1695290832::1702915831::1::::<><>::
+::res://addons/Todo_Manager/UI/::1703429120
+ColourPicker.tscn::PackedScene::2957809393656723737::1695290832::0::1::::<><>::res://addons/Todo_Manager/ColourPicker.gd
+Dock.tscn::PackedScene::4584442902745049483::1695290832::0::1::::<><>::res://addons/Todo_Manager/Dock.gd<>res://addons/Todo_Manager/Project.gd<>res://addons/Todo_Manager/Current.gd
+Pattern.tscn::PackedScene::4056048923411208166::1695290832::0::1::::<><>::res://addons/Todo_Manager/Pattern.gd
+::res://map/::1703509269
+gamemap.tscn::PackedScene::8244505119743746921::1703509269::0::1::::<><>::uid://cd38hwjlkp7q0::::res://map/decor/TX Tileset Ground.png<>uid://bbrropa8mm8f7::::res://map/background/8.png<>uid://dx0o116m1ftqp::::res://map/background/7.png<>uid://cr2kyb5p02t12::::res://player/player.tscn<>uid://bdgwkjjqblwwt::::res://map/background/6.png<>uid://c2p82xmq7yn6r::::res://map/background/5.png<>uid://cv8gcfm1cemmr::::res://map/decor/TX Village Props.png<>uid://c7ge14m756vsj::::res://map/background/4.png<>uid://1kypcblbwxeb::::res://map/background/3.png<>uid://dup0m0jqy08sn::::res://map/background/2.png<>uid://crmdc2wbnxta0::::res://map/background/1.png
+oak_woods_tileset.png::CompressedTexture2D::5700634578260494441::1575139176::1703157637::1::::<><>::
+::res://map/background/::1703431209
+0.png::CompressedTexture2D::8323556225545812996::1664572172::1703430961::1::::<><>::
+1.png::CompressedTexture2D::5991011417027463949::1664572180::1703430961::1::::<><>::
+2.png::CompressedTexture2D::8595545272243921405::1664572188::1703430961::1::::<><>::
+3.png::CompressedTexture2D::1847037813957930437::1664572192::1703430961::1::::<><>::
+4.png::CompressedTexture2D::7031561472150264345::1664572196::1703430961::1::::<><>::
+5.png::CompressedTexture2D::6700958916466093859::1664572200::1703430961::1::::<><>::
+6.png::CompressedTexture2D::2610727600253620735::1664572202::1703430961::1::::<><>::
+7.png::CompressedTexture2D::8826112781222029699::1664572206::1703430961::1::::<><>::
+8.png::CompressedTexture2D::2492761928508015246::1664572210::1703430961::1::::<><>::
+::res://map/decor/::1703431344
+TX Chest Animation.png::CompressedTexture2D::682450676804837183::1633401423::1703431343::1::::<><>::
+TX FX Flame.png::CompressedTexture2D::3780070261625274880::1657262288::1703431343::1::::<><>::
+TX FX Torch Flame.png::CompressedTexture2D::71063051539752584::1657090667::1703431343::1::::<><>::
+TX Tileset Ground.png::CompressedTexture2D::5043227806663323633::1679813061::1703431343::1::::<><>::
+TX Village Props.png::CompressedTexture2D::6315299705551832281::1683010186::1703431344::1::::<><>::
+::res://player/::1703509269
+camerapivot.gd::GDScript::-1::1695290832::0::1::::<>Marker2D<>::
+player.gd::GDScript::-1::1703434316::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::6022440037157255203::1703509269::0::1::::<><>::res://player/player.gd<>res://player/camerapivot.gd<>res://player/fsm/FSM.gd<>res://player/fsm/idle.gd<>res://player/fsm/run.gd<>res://player/fsm/air.gd<>uid://bohw2l1ahddsj::::res://player/player_animations.tres
+player_animations.tres::SpriteFrames::3384899747111510017::1703430733::0::1::::<><>::uid://0lqdn5uclnf2::::res://player/Individual Sprite/Fall/sprite.png<>uid://dq1w27sxje1mm::::res://player/Individual Sprite/Fall/sprite (1).png<>uid://b0ual4rl5iy58::::res://player/Individual Sprite/Fall/sprite (2).png<>uid://77ei61n4me0h::::res://player/Individual Sprite/idle/sprite.png<>uid://b1hk0sdm765sx::::res://player/Individual Sprite/idle/sprite (1).png<>uid://dhmiej4b4idyt::::res://player/Individual Sprite/idle/sprite (2).png<>uid://bnnw5u6kvjbge::::res://player/Individual Sprite/idle/sprite (3).png<>uid://bdpm3lxs1ovtt::::res://player/Individual Sprite/idle/sprite (4).png<>uid://bxpqgx2slu3h8::::res://player/Individual Sprite/idle/sprite (5).png<>uid://dnawgdhixeoyg::::res://player/Individual Sprite/Jump/sprite.png<>uid://bc640ag07vxoo::::res://player/Individual Sprite/Jump/sprite (1).png<>uid://dtyxigd5xdyk1::::res://player/Individual Sprite/Jump/sprite (2).png<>uid://dh3fr6ahfr2ew::::res://player/Individual Sprite/Run/sprite.png<>uid://bnjvif247l82m::::res://player/Individual Sprite/Run/sprite (1).png<>uid://df6ca4rljwucs::::res://player/Individual Sprite/Run/sprite (2).png<>uid://cdj4k54wu7yr0::::res://player/Individual Sprite/Run/sprite (3).png<>uid://bwakmaawwrlg1::::res://player/Individual Sprite/Run/sprite (4).png<>uid://cx3rmq8tb1jff::::res://player/Individual Sprite/Run/sprite (5).png<>uid://co0mumwyp1vcq::::res://player/Individual Sprite/Run/sprite (6).png<>uid://cl07yrhcfdtnp::::res://player/Individual Sprite/Run/sprite (7).png
+::res://player/fsm/::1703434358
+air.gd::GDScript::-1::1703158795::0::1::::<>StatePlayer<>::
+FSM.gd::GDScript::-1::1703434358::0::1::::StateMachine<>Node<>::
+idle.gd::GDScript::-1::1703434186::0::1::::<>StatePlayer<>::
+run.gd::GDScript::-1::1703434186::0::1::::<>StatePlayer<>::
+state.gd::GDScript::-1::1695290832::0::1::::State<>Node<>::
+state_player.gd::GDScript::-1::1695290832::0::1::::StatePlayer<>State<>::
+::res://player/Individual Sprite/::1703430917
+satyr-Sheet.png::CompressedTexture2D::6283994246695559203::1670252510::1703430007::1::::<><>::
+::res://player/Individual Sprite/Fall/::1703430863
+sprite (1).png::CompressedTexture2D::8337343070780583452::1703430368::1703430414::1::::<><>::
+sprite (2).png::CompressedTexture2D::4182450523437112253::1703430371::1703430414::1::::<><>::
+sprite.png::CompressedTexture2D::1778406805570958321::1703430365::1703430414::1::::<><>::
+::res://player/Individual Sprite/idle/::1703430290
+sprite (1).png::CompressedTexture2D::4226434027979605931::1703429917::1703430007::1::::<><>::
+sprite (2).png::CompressedTexture2D::7675849886305985727::1703429920::1703430007::1::::<><>::
+sprite (3).png::CompressedTexture2D::3327103008287020396::1703429922::1703430007::1::::<><>::
+sprite (4).png::CompressedTexture2D::2628732101201140221::1703429923::1703430007::1::::<><>::
+sprite (5).png::CompressedTexture2D::4032713190906563919::1703429925::1703430007::1::::<><>::
+sprite.png::CompressedTexture2D::2312361907887914809::1703429912::1703430007::1::::<><>::
+::res://player/Individual Sprite/Jump/::1703430401
+sprite (1).png::CompressedTexture2D::2592599529431196046::1703430265::1703430307::1::::<><>::
+sprite (2).png::CompressedTexture2D::8543806244652679510::1703430268::1703430307::1::::<><>::
+sprite.png::CompressedTexture2D::8073063675756090430::1703430263::1703430307::1::::<><>::
+::res://player/Individual Sprite/Run/::1703430279
+sprite (1).png::CompressedTexture2D::3318744699660726366::1703429982::1703430007::1::::<><>::
+sprite (2).png::CompressedTexture2D::7574324963582384902::1703429984::1703430007::1::::<><>::
+sprite (3).png::CompressedTexture2D::5003767570343538171::1703429986::1703430007::1::::<><>::
+sprite (4).png::CompressedTexture2D::3931203844213996730::1703429988::1703430007::1::::<><>::
+sprite (5).png::CompressedTexture2D::6446041858796299219::1703429990::1703430007::1::::<><>::
+sprite (6).png::CompressedTexture2D::5807859607338885736::1703429992::1703430007::1::::<><>::
+sprite (7).png::CompressedTexture2D::5598514797886573309::1703429994::1703430007::1::::<><>::
+sprite.png::CompressedTexture2D::7708722105668702786::1703429980::1703430007::1::::<><>::

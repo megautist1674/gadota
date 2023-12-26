@@ -1,0 +1,47 @@
+[gd_scene load_steps=9 format=3 uid="uid://cr2kyb5p02t12"]
+
+[ext_resource type="Script" path="res://player/player.gd" id="1_yd7bv"]
+[ext_resource type="Script" path="res://player/camerapivot.gd" id="3_kdwtu"]
+[ext_resource type="Script" path="res://player/fsm/FSM.gd" id="3_udrmt"]
+[ext_resource type="Script" path="res://player/fsm/idle.gd" id="4_a3jc2"]
+[ext_resource type="Script" path="res://player/fsm/run.gd" id="5_vs1mx"]
+[ext_resource type="Script" path="res://player/fsm/air.gd" id="6_1cudt"]
+[ext_resource type="SpriteFrames" uid="uid://bohw2l1ahddsj" path="res://player/player_animations.tres" id="7_cppfm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wkvh2"]
+size = Vector2(14, 18)
+
+[node name="Player" type="CharacterBody2D"]
+collision_layer = 2
+script = ExtResource("1_yd7bv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 11)
+shape = SubResource("RectangleShape2D_wkvh2")
+
+[node name="CameraPivot" type="Marker2D" parent="."]
+script = ExtResource("3_kdwtu")
+
+[node name="Camera2D" type="Camera2D" parent="CameraPivot"]
+zoom = Vector2(1.05, 1.05)
+position_smoothing_enabled = true
+position_smoothing_speed = 20.0
+
+[node name="FSM" type="Node" parent="."]
+script = ExtResource("3_udrmt")
+start_state = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="FSM"]
+script = ExtResource("4_a3jc2")
+
+[node name="Run" type="Node" parent="FSM"]
+script = ExtResource("5_vs1mx")
+
+[node name="Air" type="Node" parent="FSM"]
+script = ExtResource("6_1cudt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-5, 10)
+sprite_frames = ExtResource("7_cppfm")
+animation = &"fall"
+speed_scale = 2.0
